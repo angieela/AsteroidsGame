@@ -16,6 +16,7 @@ public void draw()
   {
     galaxy[i].show();
   }
+  bob.move();
 }
 public void keyPressed()
 {
@@ -26,6 +27,21 @@ public void keyPressed()
     bob.setXcenter();
     bob.setYcenter();
   }
+  if(key == 'a')
+  {
+    bob.accelerate(1);
+  
+  }
+  if(key == 'r')
+  {
+    bob.turn(3);
+  }
+  if(key == 'l')
+  {
+    bob.turn(-3);
+  }
+  
+ 
 }
 
 
