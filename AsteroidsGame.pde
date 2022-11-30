@@ -27,6 +27,7 @@ public void keyPressed()
     bob.setXcenter();
     bob.setYcenter();
     bob.setPosition();
+    bob.show();
   }
   if(key == 'a')
   {
