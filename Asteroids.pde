@@ -29,26 +29,10 @@ class Asteroid extends Floater{
     super.move();
   }
 
-  //  public void setXcenter()
-  //  {
-   //   myCenterX = (int)(Math.random()*1000);
-   // }
-   // public void setYcenter()
-   // {
-   //   myCenterY = (int)(Math.random()*1000);
-   // }
     public void setPositon()
     {
        myPointDirection = (int)(Math.random()*360);  
     }
-   // public double getX ()
-   // {
-   //   return myCenterX;
-   // }
-    //public double getY()
-   // {
-   //   return myCenterY;
-   // }
     public double getXcenter ()
     {
       return myCenterX;
